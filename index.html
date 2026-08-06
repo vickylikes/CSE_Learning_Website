@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="JTgmoOzN6ObfXYFF89wdf6dC29uNOXTdkE1BB3IF1eU" />
+    <!-- 1. Optimized search engine title -->
+    <title>CSE Learning Hub | Self-Learning Computer Science</title>
+    
+    <!-- 2. The description snippet Google displays under your link -->
+    <meta name="description" content="A comprehensive self-learning platform for Computer Science Engineering (CSE). Access interactive dashboards, free open-source resources, and core computer science courses.">
+    
+    <!-- 3. Target keywords for search index algorithms -->
+    <meta name="keywords" content="CSE learning, computer science engineering, self learning computer science, free cs courses, learn computer science, vicky cs platform">
+
+    <style>
+        /* Futuristic Robotic Matrix/Circuit Background */
+        body { 
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #030712; 
+            background-image: 
+                radial-gradient(at 50% 0%, rgba(14, 165, 233, 0.15) 0px, transparent 50%),
+                linear-gradient(rgba(16, 185, 129, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(16, 185, 129, 0.03) 1px, transparent 1px);
+            background-size: 100% 100%, 30px 30px, 30px 30px;
+            padding: 40px 20px; 
+            color: #e2e8f0; 
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        p {
+            color: #94a3b8;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Glassmorphism Cyber Boxes */
+        .main-box { 
+            background: rgba(17, 24, 39, 0.85); 
+            border: 1px solid rgba(14, 165, 233, 0.4); 
+            border-radius: 12px; 
+            margin: 25px 0; 
+            padding: 20px; 
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255,255,255,0.05); 
+            backdrop-filter: blur(12px);
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        .main-box[open] {
+            border-color: #38bdf8;
+            box-shadow: 0 0 35px rgba(56, 189, 248, 0.15);
+        }
+        .main-title { 
+            font-size: 20px; 
+            font-weight: bold; 
+            color: #38bdf8; 
+            cursor: pointer; 
+            outline: none; 
+            padding: 5px 0;
+        }
+
+        .sub-box { 
+            background: rgba(3, 7, 18, 0.6); 
+            border: 1px solid rgba(51, 65, 85, 0.8); 
+            border-radius: 8px; 
+            margin: 15px 0 5px 0; 
+            padding: 15px; 
+        }
+
+        .sub-title { 
+            font-size: 16px; 
+            font-weight: bold; 
+            color: #34d399; 
+            cursor: pointer; 
+            outline: none; 
+        }
+
+        .links-list { 
+            list-style-type: none; 
+            padding-left: 5px; 
+            margin: 15px 0 0 0; 
+        }
+        .links-list li { 
+            margin: 15px 0 5px 0; 
+            font-size: 15px; 
+            font-weight: bold; 
+            color: #f1f5f9;
+        }
+
+        .item-row { 
+            margin-left: 0; 
+            font-weight: normal; 
+            margin-top: 8px; 
+            margin-bottom: 20px; 
+            background: rgba(255, 255, 255, 0.03);
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+
+        a { 
+            color: #38bdf8; 
+            text-decoration: none; 
+            margin-right: 20px; 
+            font-size: 14px;
+            transition: color 0.2s, text-shadow 0.2s;
+        }
+        a:hover { 
+            color: #7dd3fc;
+            text-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
+        }
+        
+        /* Interactive Cyber Button for Intro Pop-up */
+        .intro-file-link { 
+            display: inline-block; 
+            margin-top: 10px; 
+            margin-bottom: 25px; 
+            font-weight: 600; 
+            color: #34d399; 
+            text-decoration: none;
+            border: 1px solid #34d399;
+            padding: 10px 20px;
+            border-radius: 6px;
+            background: rgba(52, 211, 153, 0.05);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .intro-file-link:hover { 
+            background: rgba(52, 211, 153, 0.15);
+            color: #6ee7b7;
+            box-shadow: 0 0 15px rgba(52, 211, 153, 0.2);
+        }
+
+        /* Fixed Layout Structure for Prerequisites */
+        .prereq-box {
+            background: rgba(245, 158, 11, 0.05);
+            border-left: 4px solid #f59e0b;
+            padding: 18px;
+            border-radius: 4px;
+            margin: 25px 0;
+        }
+        .prereq-title {
+            color: #f59e0b;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+        .prereq-text {
+            margin: 0; 
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+
+        .footer-disclaimer { 
+            font-size: 13px; 
+            color: #64748b; 
+            line-height: 1.5; 
+            font-style: italic; 
+            max-width: 600px; 
+            margin: 15px auto 0 auto; 
+        }
+
+        /* Embedded Custom Introduction Window Overlay */
+        /* Embedded Custom Introduction Window Overlay */
+        .terminal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            backdrop-filter: blur(6px);
+        }
+        .terminal-window {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%; max-width: 700px; height: 75vh;
+            background: #000000;
+            border: 2px solid #334155;
+            border-radius: 8px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.9);
+            display: flex; flex-direction: column;
+            overflow: hidden;
+        }
+        .terminal-header {
+            background: #000000;
+            padding: 15px;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            border-bottom: 1px solid #334155;
+        }
+        
+        /* The Two Clickable Language Boxes inside the window */
+        .lang-button {
+            background: #000000;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            padding: 8px 16px;
+            margin-right: 10px;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+        /* Visual cue when hovering over the language boxes */
+        .lang-button:hover {
+            background: #ffffff;
+            color: #000000;
+        }
+        /* Styling for the active selected box */
+        .lang-button.active {
+            background: #ffffff;
+            color: #000000;
+            box-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+
+        .terminal-close {
+            background: none; border: none; color: #ef4444; 
+            font-size: 22px; cursor: pointer; font-weight: bold;
+        }
+        .terminal-close:hover { color: #f87171; }
+        
+        .terminal-body {
+            flex: 1; padding: 25px; overflow-y: auto;
+            color: #ffffff;
+            font-family: 'Segoe UI', -apple-system, sans-serif;
+            font-weight: 200; /* Very thin letter font */
+            font-size: 16px; line-height: 1.7; letter-spacing: 0.5px;
+            white-space: pre-wrap;
+            background: #000000;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <p>Welcome! This is My Interactive Dashboard. Click The Boxes Below To Expand Them.</p>
+        <p>Hi, My name is Vikram Aditya(shortly vicky). Our Intention Behind Building This Website is to Provide a Path To The Students Who Try To Learn on Their Own Without Traditional Enrolling In Colleges,Courses By Using Free Open_Source Resources Like us and Also For Us, We Will Gain Experience in Building a Website From Scratch . </p>
+        
+        <!-- Button to launch the Thin Text Terminal Window -->
+        <button onclick="openIntro()" class="intro-file-link">📖 Click to View Introduction to Our Website</button>
+
+        <!-- Prerequisites block with text forced onto a clean new line -->
+        
+        <!-- MAIN BOX: CS50x -->
+        <!-- MAIN BOX : Getting Started -->
+<div class="main-box">
+
+    <a href="getting_started.html"
+       target="_blank"
+       style="display:block; text-decoration:none; color:inherit;">
+
+        <div class="main-title">
+            Getting_Started
+        </div>
+
+        <p style="margin-top:15px; color:#94a3b8;">
+            Begin your Computer Science Journey here.
+            Click anywhere inside this box to open the roadmap.
+        </p>
+
+    </a>
+
+</div>
+      
+
+        <footer style="text-align: center; padding: 20px; color: #64748b; font-size: 14px;">
+            <p style="color: #64748b;"><strong>Status:</strong> Work in Progress. Content will be updated soon.</p>
+            <p>📬 Contact / Collaborations: <a href="mailto:vickyatinstagram@gmail.com" style="color: #38bdf8;">vicky.at.my.website@gmail.com</a></p>
+            
+            <p class="footer-disclaimer">
+                This Website is for Awareness Purpose only. All Course Video,Notes,Content Links Redirect to The Corresponding Official Platforms, Where They are freely Provided By the Creators of That Content.
+            </p>
+        </footer>
+    </div>
+       <!-- Custom Introduction Window Overlay with Dual Clickable Language Boxes -->
+    <div id="introTerminal" class="terminal-overlay">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div style="display: flex;">
+                    <button id="btnEng" onclick="fetchIntroFile('Introduction_English.txt', 'btnEng')" class="lang-button">Introduction_English</button>
+                    <button id="btnTel" onclick="fetchIntroFile('Introduction_Telugu.txt', 'btnTel')" class="lang-button">Introduction_Telugu</button>
+                </div>
+                <button onclick="closeIntro()" class="terminal-close">✕</button>
+            </div>
+            <div id="terminalContent" class="terminal-body">Click a file link above to display introduction content...</div>
+        </div>
+    </div>
+
+
+        <script>
+        // Opens the black window and automatically loads English first
+        function openIntro() {
+            document.getElementById('introTerminal').style.display = 'block';
+            fetchIntroFile('Introduction_English.txt', 'btnEng');
+        }
+
+        // Closes the black window overlay
+        function closeIntro() {
+            document.getElementById('introTerminal').style.display = 'none';
+        }
+
+        // Dynamically fetches your text files from the GitHub repository
+        function fetchIntroFile(fileName, buttonId) {
+            document.getElementById('terminalContent').textContent = "Connecting to repository and fetching file data...";
+            
+            // Switch which box looks highlighted
+            var buttons = document.getElementsByClassName('lang-button');
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove('active');
+            }
+            document.getElementById(buttonId).classList.add('active');
+
+            // Fetch the text file contents into the small window body
+            fetch(fileName)
+                .then(function(response) {
+                    if (!response.ok) {
+                        throw new Error('File not found');
+                    }
+                    return response.text();
+                })
+                .then(function(data) {
+                    document.getElementById('terminalContent').textContent = data;
+                })
+                .catch(function(err) {
+                    document.getElementById('terminalContent').textContent = 
+                        "Error reading file! Please check that a text file named exactly \"" + 
+                        fileName + "\" is uploaded to your GitHub repository folder.";
+                });
+        }
+    </script>
+
+
+</body>
+</html>
