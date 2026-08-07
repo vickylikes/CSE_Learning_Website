@@ -172,3 +172,42 @@ console.log(
     VickyLikes.totalCourses
 
 );
+/*==========================================================
+Generate Phase Cards Automatically
+==========================================================*/
+
+function loadPhaseCards() {
+
+    const phaseGrid = document.getElementById("phaseGrid");
+
+    if (!phaseGrid) return;
+
+    phaseGrid.innerHTML = "";
+
+    VickyLikes.database.forEach((phase) => {
+
+        const card = document.createElement("a");
+
+        card.className = "course-card";
+
+        card.href = "phases/" + phase.id + ".html";
+
+        card.innerHTML = `
+
+            <div class="complete-dot"></div>
+
+            <h3>${phase.title}</h3>
+
+            <p>${phase.description}</p>
+
+            <p><strong>${phase.courses.length}</strong> Courses</p>
+
+        `;
+
+        phaseGrid.appendChild(card);
+
+    });
+
+}
+
+loadPhaseCards();
