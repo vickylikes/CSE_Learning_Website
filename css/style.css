@@ -1242,3 +1242,18 @@ display:none;
 }
 
 }
+/*==========================================================
+Introduction Button
+==========================================================*/
+
+.intro-btn{
+
+width:260px;
+
+justify-content:center;
+
+font-size:18px;
+
+font-weight:600;
+
+}
