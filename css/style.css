@@ -1257,3 +1257,60 @@ font-size:18px;
 font-weight:600;
 
 }
+/*==========================================================
+NEW_NAME Hero Box
+==========================================================*/
+
+.new-name-box{
+
+width:180px;
+
+height:180px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-decoration:none;
+
+background:#000000;
+
+color:#ffffff;
+
+border:2px solid #ffffff;
+
+border-radius:18px;
+
+font-size:22px;
+
+font-weight:700;
+
+letter-spacing:1px;
+
+box-shadow:
+
+0 0 8px #ffffff,
+
+0 0 16px #ffffff,
+
+0 0 28px rgba(255,255,255,.7);
+
+transition:.35s;
+
+}
+
+.new-name-box:hover{
+
+transform:translateY(-8px) scale(1.03);
+
+box-shadow:
+
+0 0 12px #ffffff,
+
+0 0 24px #ffffff,
+
+0 0 40px rgba(255,255,255,.9);
+
+}
