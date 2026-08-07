@@ -1112,3 +1112,46 @@ grid-template-columns:1fr;
 /*==========================
 End
 ==========================*/
+.background-glow{
+
+position:fixed;
+
+top:-250px;
+
+left:-250px;
+
+width:700px;
+
+height:700px;
+
+background:radial-gradient(circle,#2563eb55 0%,transparent 70%);
+
+pointer-events:none;
+
+z-index:-1;
+
+animation:glowMove 15s ease-in-out infinite;
+
+}
+
+@keyframes glowMove{
+
+0%{
+
+transform:translate(0,0);
+
+}
+
+50%{
+
+transform:translate(250px,120px);
+
+}
+
+100%{
+
+transform:translate(0,0);
+
+}
+
+}
