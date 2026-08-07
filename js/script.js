@@ -211,3 +211,93 @@ function loadPhaseCards() {
 }
 
 loadPhaseCards();
+/*==================================================
+Load Phase 1 Courses
+==================================================*/
+
+function loadPhaseOneCourses() {
+
+    const courseGrid = document.getElementById("courseGrid");
+
+    if (!courseGrid) return;
+
+    const phase = getPhase("phase1");
+
+    if (!phase) return;
+
+    courseGrid.innerHTML = "";
+
+    phase.courses.forEach((course) => {
+
+        const card = document.createElement("a");
+
+        card.className = "course-card";
+
+        card.href = course.url || "#";
+
+        card.target = "_blank";
+
+        card.innerHTML = `
+
+            <div class="complete-dot"></div>
+
+            <h3>${course.name}</h3>
+
+            <p>${course.provider}</p>
+
+            <p>${course.difficulty}</p>
+
+        `;
+
+        courseGrid.appendChild(card);
+
+    });
+
+}
+
+loadPhaseOneCourses();
+/*==================================================
+Load Phase 2 Courses
+==================================================*/
+
+function loadPhaseTwoCourses() {
+
+    const courseGrid = document.getElementById("courseGrid2");
+
+    if (!courseGrid) return;
+
+    const phase = getPhase("phase2");
+
+    if (!phase) return;
+
+    courseGrid.innerHTML = "";
+
+    phase.courses.forEach((course) => {
+
+        const card = document.createElement("a");
+
+        card.className = "course-card";
+
+        card.href = course.url || "#";
+
+        card.target = "_blank";
+
+        card.innerHTML = `
+
+            <div class="complete-dot"></div>
+
+            <h3>${course.name}</h3>
+
+            <p>${course.provider}</p>
+
+            <p>${course.difficulty}</p>
+
+        `;
+
+        courseGrid.appendChild(card);
+
+    });
+
+}
+
+loadPhaseTwoCourses();
