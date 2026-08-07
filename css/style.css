@@ -1371,3 +1371,73 @@ border-color:#60a5fa;
 background:rgba(30,41,59,.95);
 
 }
+/*==========================================================
+TODO 1 Background
+==========================================================*/
+
+body:has(.intro-page){
+
+background:#E8E0FF;
+
+background:linear-gradient(
+180deg,
+#EFE8FF 0%,
+#E7DDFF 100%
+);
+
+}
+/*==========================================================
+Text Reader (TODO 1)
+==========================================================*/
+
+body:has(pre){
+
+background:#FFE7D1;
+
+background-image:
+
+repeating-linear-gradient(
+
+to bottom,
+
+transparent 0px,
+
+transparent 31px,
+
+#000000 32px
+
+);
+
+background-attachment:fixed;
+
+}
+
+pre{
+
+margin:0;
+
+padding:0 12px;
+
+width:100%;
+
+white-space:pre-wrap;
+
+word-wrap:break-word;
+
+font-size:18px;
+
+line-height:32px;
+
+font-family:
+
+"Consolas",
+
+"Courier New",
+
+monospace;
+
+color:#111;
+
+background:transparent;
+
+}
