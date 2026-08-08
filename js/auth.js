@@ -1,12 +1,4 @@
-import { auth, provider } from "./firebase-config.js";
-
-import {
-signInWithPopup,
-onAuthStateChanged,
-signOut
-} from "https://www.gstatic.com/firebasejs/12.2.1/firebase-auth.js";
-
-window.loginWithGoogle = async function () {
+export async function loginWithGoogle(){
 
     try{
 
@@ -22,7 +14,7 @@ window.loginWithGoogle = async function () {
 
     }
 
-};
+}
 
 window.logoutUser = async function(){
 
