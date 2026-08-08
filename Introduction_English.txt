@@ -1,0 +1,147 @@
+
+Disclaimer Notice - 
+_____________________________________________________________________________________________________
+ This  Website  Holds  Only  Links  To  The  External  Official  Plaforms  . We are Not  Claiming  The  Courses in  The Website  As  Ours   We  Also  Post  Our Own  Content Here.  This  Website is Not  Used  For   Monetary  Purposes  and it  is  under  General  Public  License   To  read  about  it  Search in  Github  Licenses .In  Case  Of  Any  Kind  of  Legal  Issues  Contact  me  Through  My  Email-id.
+In  Case  Anything  In  Our  Content  is  Disrespectful  Pointing  Out  A  Specific  Organisation  or  Resource  in Wrong Manner  Also  If  Any  Wrong Information  Found  In  Our  Content.  Kindly  Send  Email  Regarding  It  We  will  Correct  Them.
+
+Email-id - vicky.at.my.wesbite@gmail.com
+_____________________________________________________________________________________________________
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Index
+
+Welcome  And  Some  Experiences
+ Preface
+ Prerequisites
+ Instructions To Use Our Website
+ Our Entire  Journey  Till Starting to Build This  Website
+ Contacts
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Note :
+
+Some   Points  Might  Repeat  in  this  Introduction  We  Advice  To Read  Them  Patiently.
+Even  If  You Didnt  Understood   Meanings  Of  Some Points  Or  Dont  Have  Knowledge About  it  We  Will  Teach  Them  to You Through  Our  Youtube   Videos  
+
+Youtube  Channel  Link  :   *********Still Under Development *********
+
+
+
+
+
+
+
+
+
+
+Welcome  to  Open_source_curriculum 
+
+
+Hi  My  name  is  Vikram  Aditya  and  iam  From  Andhrapradesh, India. It is  My  Professional  Name not Original Name . I Secured  a Seat in NIT  Electronics And Electrical Engineering .At The Time of Writing This File It is 3:41 PM August 8th 2026.  
+
+
+
+                                                                               ************** Some Experiences**************
+
+
+
+These  Experiences  May  or  May not  Relevant  to  Our  topic  But  we  Would  Like  to  Share  Them .
+
+
+       1) A  Nice   Trap  Like  Sequence
+
+Students Trust Parents -- Parents  Trust  And  Pay Money  To  Institutes  -- Institutes  Need  Money and  Gives  Guarantee  To  Achieve  Something  (Like JEE Coaching, Which is Often Trend for Intermediate Students From Middle-Class Family)--
+                         Hence They Optimize The Coaching For Top-Scores 
+                          What  is  Optimization ?
+                                         Its  Fine-Tuning  Anything To  Achieve a Specific Goal .  In  The  Case  of  JEE  we   Should  Work Like a Robot  and Mechanically  Practice  Hundreds  of  Problems  On   Stoichiometry  , And  so  on  Topics  in  Syllabus   of  JEE  
+                                          1)It  Makes  Students  Top  Scorers In  The  Exam  and Only  Best  For  That  Exam  
+                                          2)It  Hibernates  The Creative  Thinking In  Any  Work  (Indoor  Sports  And Even  Learning  Actively  In  Future ) Since Childhood (If  Didnt  Have  Till  10th  Standard  No one can  do anything to him God should help him) .
+
+[JEE Coaching Optimization]  -------     Pattern   Recognition      Speed/Tricks         Closed/Limited  Repetive  Problems
+                                                                   VS.
+[True Engineering Growth]  -------   First-Principles Math    Experimentation    Open-Ended Systems
+
+       2) Chanting  IIT  Mantra  and  Concept   of  Sharmaji   Ka   Beta
+                          Dream  Choice   For  any   Student   Preparing  For  JEE  is  IIT  Bombay---CSE    Majority  of  Them  Dont  Even Know  About  Programming Yet   Dreams  To   Get  CSE   Branch  in  Any  NIT or IIT  And  After Knowing  About  Programming  They   Wonder   Why  They   Chewed   The  NCERT  Chemistry  Class-11 and  Class-12  And  Did   Hundreds  Of  Problems  in  Chemistry . There  is  no  Answer  to  it  Skipping  to  Next  Point   
+
+                           CSE   is  Famous   Beacause  It  is  The  Only  Branch  With    Highest  On-Campus  Placement   Packages  and  Even  Off-Campus. They  Always  Dream  Of  Earning  Money  Through  Education .  But  A  Person   Told  me  Even If you  Earn  Like  That   You Will  not  have Mental  Peace  To  Sleep  Happily.  So  learn  To  Acquire  Knowledge  Build  Anything Useful and Meaningful But  Dont  Expect  Anything  From  it   And Lead   Your  Life  Simply  Money Will Automatically Come  To  You  if  it  Worth it. This  Unattachment is One of The points  Told By Swami Vivekanada
+                           Which is Described In Our Intermediate English Class-12 Textbook  But According  To Our College and Teachers Studied That Chapter is  For 4 marks Question In Public Exam And we Should Write Atleast One and Half Page in Answer Booklet   Read The Answer  Copy into mind and Paste In The Exam Paper.It Doesnt Matter Whether We  Understood The Statement or not for those Teachers Who Teached Me English in Class-12 .
+
+                             The  Majority   Of  Students Who  End  Up  in   Depression  For  not  Getting   IIT    Some  Even  Do  not  Clear  Cutoff  Of  JEE advanced  92 Marks  for   General  In  2026 . They  All  Face  One  Dialogue  ****See  That  Neighbours Got  IIT Seat  ,  Your  Freind  Got  IIT  Seat  And You Sitting  Like  a Waste  ,Wasting  All our  Money, ****  From Parents . In  Hindi  NeighBours  Often  Termed    With   Sharma  Ji  Ka  Beta  Which Once  viraled On  Social Media  Among  Students.  the Fact  is  college  is  Just  One   of  the  Door  Where  Companies  Come to your Doorstep To Check  Your Eligibilty  For  The Job  . The  Same  Checking  Can  Also  Be  Done  Off  Campus  and  Get  a  High- Paying  Job  if  You Had  the  Skills They  Need  But This Is Slightly Difficult Means You Should Be Active In Various Platforms And Present Your Work There and  So on .   Feeling  Bad  About  Those   Dialogues is Useless And Just  Forget  it.
+
+
+                                In  Tech  Field  No  Matter  How  Much  High  is  Your   Position  You  Need   To  Learn  Again And Again
+
+
+
+
+                                                                                            **********Preface***********
+
+We  Designed  This  Guide  Specifically  After  Seeing  So  Many  Students  Who  are   Practicing  Algorithmic  Learning  and  Pattern  Recognizing   For   More Than   2   Years  To   Score  Good   Rank  in  Joint  Entrance   Examination  Mains  and  Advanced  But  Majority  End  up  in Despair  . In  Addition  to  That  Some   Students   will  Even  More  Exhuasted  Mentally  By  Some  of  The  JEE  Coaching  Institutes . We  Saw  No  Practical Learning  Type  Students  Around  Us  Since  Our  ChildHood  . But  Thousand  of Learners   on   internet  Were  Learning  About  Computers    Since  As  Low  As  12  Years  of  Age  Even  With   Minimal  Lowend  Setup  And  Uploading  There projects  On  Internet  And  Preparing  Their  Portfolios  For  Their  Career's  .
+We   Wondered  What   is  There  on  Internet  And  We  Also  Had  Some  Doubts  About  IITS  and NITS  in  Academic  Sylllabus  And  Subjects  Told  There   And   Then  One  MidNight   At   The Time  of  Ghost 's  Patrolling , For  The  First  time  We  Used  Chatgpt  And  Asked  It  about  Computer  Science  and  Started  Learning  Since  Then . It  Was  A  Series of  Long Chats  with Chatgpt  To Get an  idea  About  Computer Science  . Since  Then We started  Learning.
+
+The  Term  Free  Resources  Is Often  Used  Very  Much  in Our   Introduction   .  On  Internet  No  One  Uploads  Entire  Knowledge  of  Computer  Science  Degree   For  Free .  Only  Parts   Of   The  Degree  Some  Topics  Some  Sub-Courses  etc. We  Similiar  To  OSSU-GitHUb-CSE  Are  Grouping   Those  Individual  Courses   Trying  To  Alias The  CSE  Btech  And  Even Advanced  Learning  After . Here  We   provide   AI/no  certificates (in my way it means without enrolling in IIT,NIT  And Studying CSE is waste of time (Means Low   Packages Of   Salary) and also for the one who didnt know what to study and ML Specialization . The parts are often  From International Universities Stanford ,Harvard ,MIT and So on .
+
+To make an open-source way handy(means easy to use) to students who  Always consider  studying  complete  computer  science  and Earning where to start the computer science journey beacause  of   lack of Complete  structured learning For Free in Internet ,, That Can Be Understood Simply or Accessed  Simply By a Normal Student Without  Lot  Of  Buttons  and Lot  of  Different  Options  Which  May  Confuse  The  Users  And With   That  Confusion  They  Leave  Those  Resources  And  Again  Starts  Thinking  About  Colleges  Instead   Of  Starting  Learning .  Repeats  Same  Courses  From  Different Websites  To Find  Out  Which  One is Best (That  is  Waste  Of  Energy and Time )and also for People Who dont know what to learn first in Computer Science escpecially in Our telugu speaking states They Enroll In Computer Centres To Learn But They Just Teach You Syntax Or Basics Which You Can Learn Using Online Free Resources Within Hours.This Entire program is intended to Extreme specialization in Artificial intelligence and Machine Learning from absolute Zero in computer science . During The Development Of  This  Website Iam not a Specialist  Iam  Parallely Doing My AI/ML Learning and web Development  With  AI Assistance  
+
+BASIC REQUIREMENTS :- Web browsing , normal usage of any free AI's  like chatgpt,  knowledge about basic usage of computer
+
+OPERATING SYSTEM :- Better use Linux as it has built in terminal  (you will know what is terminal later)
+RECOMMENDED OS :- Linux mint xfce, linux ubuntu,Q4OS With Trinity Desktop Environment.
+
+
+
+
+                                                                                       ***********Instructions  To   Use  Our  Website*************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                  ************Our Entire Journey  Till starting To build This Website***************
+
+
+For  The  First  Time  After  Using   Chatgpt  We  Read  a  Book  Called  **LET  US  C**   And  Installed  an   IDE (Integrated  Development  Environment)
+Called  Turbo  C /C++  Made  By  Borland  a  Software  Company  Around  1980's  Times .  It  is  For  16-bit  Systems  But  Using  Emulators  We  Can  run
+it  on  64-bit  Systems
+                                                  Link  :   https://turbo-c.en.softonic.com/
+
+After  That  We  Bought   a  New   Edition Of  That Same Book   Physically  and  Read  Upto   11   Chapters   and Stored  Them  Organisedly   One  Day   They  Accidentally  got  Deleted  and Also  We are   not  able  to  solve the problems   Furthur  in  That Book   So  With  Frustration We  Started  Searching  For  Other  Books  For  C  Language   And Read  So  many  Comments  That   LET  US  C  book  is Using  Outdated  Form  Of  Codes  in  C and  For  Modern  Styles   I   Started  Searching  For  a   Standard  Book   Specific  To  Indians  And Found  a  Book   Called  *******Programming  in  ANSI   C  ********   Written  By   E .  BalaraghuSwamy   It  is  an  Academic  Style  Textbook  Used  By  IIT   NIT   Professors  , Students  I Bought  Nineth   Edition  of  it  and  Read   Upto  Pointers  But  Faced   A  Deep  Hit  There  Iam  Not  Able  to   Understand    Pointers.   So  Again  Searching  For   a  New  Resource.
+  
+                                            In  That  Way  I searched  So  many Websites  For  Free Learning  Of    C   And Uselessy   Watched  So many  Lecture  Videos   and  Starting    Tutorials   Repeatedly  Without  Sticking   to  One  Resource  .It  is similiar to   Repeatedly  Reading  '""""ABCDEFGHIJKLMNOPQRSTUVWXYZ""""           in Different  LKG  books 
+
+Mean  While  During  Those  Starting  Days  I Created  Interactive  Programs  For   Emi  Calculation  of a  Loan ,  Calculator ,  Greeting  a Person  and  Such  Small Practice  Programs .
+
+Then  After  I Found  A   Course Video  Playlist  On  Youtube  Released   By  IIT  Bombay  Called   CS101   a  Standard  Course  For  First  Year  Students  For 
+Learning   C++ Language  It is  Good  And  Explained Me  Many  Things  Clearly  Most  Importantly  Pointers  But Not  Able  To  Complete  It  Perfectly  You   May  Once  Watch  Those  Lecture   Videos  To  Gain  A  Clarity  From   Absolute  zero  . It   is  An Alternative  To  Reading  LET  US  C  in  Starting Point 
+
+Then  After  I Found   OSSU-Github  An  Complete  Structured   Guide  But  iam  Not  Able  To  understand  Everything in  it  At  That  Time  But  Enrolled In  A  Free Course  Called  CS50 P     It  is  For  Python  . That  Course  Changed  Me  Completely  My  Way Of  Thinking  It  is  Very  Fluent ,Faster and  Possess  Deep  Knowledge  With  Active  Learning  Teached  By   The  Mentor   David Malan . 
+
+You  can  Freely  Audit  That  Course For Limited  Time  Period and Also  for  Gaining Knowlegde  Else  Pay  Money  To get  a  Certificate   After  Completing .
+In this  Complete  Journey  I used  Several  AI models  And Gained  So  Much  Experience  in  Prompting  It  . Example  Gemini ,  Claude  , Chatgpt , Perplexity
+etc . They  Stood  For My  Every  Doubt  No  Matter  How  Deep it  is  You  Can  Use  It  To Learn  Everything .
+
+After  All These I Searched  Many  Things About  Jobs   in  Tech  Careers  And Found  Onething  
+We  need   To  Choose  a   Specialization  And  Stick  To  it  Then  After  Extremely  Learning  in It  We  Should   Build  Projects  And Make  Open_Source 
+And Also We  Should  Be  Active  On  Various  Career  Related  Platforms  Like  Linkedin . And Also Actively Participate  in  Hackathons And ShowCase  Your  Skills  In Websites  Like HackerRank  ,  Leetcode  (Which   Are  Also A Practice Platforms)
+
+
+
+
+For any doubts Regarding Website And Introduction Files
+Email-id : vicky.at.my.website@gmail.com
+insta-id :  vickylikes2042
+
+
+
